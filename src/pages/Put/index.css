@@ -1,0 +1,74 @@
+.form_box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 960px;
+}
+
+.input_box {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+    width: 100%;
+}
+
+.input_box input {
+    padding: 8px;
+    width: 220px;
+    height: 35px;
+    border: 1px solid gainsboro;
+}
+
+.input_box textarea {
+    line-height: 20px;
+    box-sizing: border-box;
+    border: 1px solid gainsboro;
+    width: 100%;
+    padding: 8px;
+}
+
+form {
+    width: 100%;
+}
+
+label {
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+
+.small_title {
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.tips {
+    width: fit-content;
+    font-size: 13px;
+    background-color: #f6f6f6;
+    color: #999
+}
+
+.submit_btn {
+    width: 78px;
+    background: #ff0033;
+    padding: 7px 12px;
+    color: white;
+    border: 0;
+}
+
+.open_box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+}
+
+.hide {
+    display: none;
+}
+
+.mistake {
+    color: #760018;
+}

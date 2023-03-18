@@ -1,0 +1,59 @@
+.openpill_box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+}
+
+.open_input {
+    margin: 0 8px;
+    padding: 8px;
+    width: 220px;
+    height: 35px;
+    border: 1px solid gainsboro;
+}
+
+.not_exist {
+    box-sizing: border-box;
+    background-color: #f5f5b5;
+    border: 1px solid #deca7e;
+    margin: 50px 0;
+    width: 450px;
+    padding: 8px;
+    color: #900;
+    font-size: 13px;
+}
+
+.exist {
+    box-sizing: border-box;
+    margin: 38px 0 0 0;
+    width: 450px;
+    padding: 8px;
+    font-size: 20px;
+}
+
+.pill_content {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ff0033;
+    height: 55px;
+    width: 690px;
+    padding: 15px 20px;
+    margin: 15px 0;
+    color: #900;
+    font-size: 13px;
+}
+
+.pill_tip {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ff0033;
+    height: 55px;
+    width: 690px;
+    padding: 15px 20px;
+    margin: 15px 0;
+    font-size: 13px;
+}

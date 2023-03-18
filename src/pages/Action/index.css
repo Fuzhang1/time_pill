@@ -1,0 +1,53 @@
+.action_box {
+    width: 100%;
+    height: 100%;
+}
+
+.navi {
+    width: 100%;
+    height: 40px;
+    background: -webkit-linear-gradient(#FFFFFF, #F2F2F2);
+    position: sticky;
+    top: 0%;
+}
+
+.navi-small-box {
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navi img {
+    float: left;
+    margin-left: 12px;
+    height: 60%;
+    cursor: pointer;
+}
+
+.myfont {
+    height: 100%;
+    line-height: 38px;
+    cursor: pointer;
+    padding: 0 14px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #777;
+}
+
+.myfont:hover {
+    color: black;
+}
+
+.diary {
+    position: absolute;
+    right: 0%;
+}
+
+.active_box {
+    background-color: #E5E5E5;
+    box-shadow: 0 1px 5px rgb(0 0 0 / 13%) inset;
+    color: #555555;
+}
